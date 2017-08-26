@@ -32,13 +32,7 @@
 		</nav>
 		<section class="sec-galeria" style="display: flex; flex-direction: column;">			
 			<div class="text">
-				<h1  style="display: flex; flex-direction: row; padding-top: 5px;">CONTACT
-					<!--<ul style="margin: 0; margin-left: 10px;">
-						<li><a href="galeria-it.html" class="lista-paises">IT</a></li>
-						<li><a href="galeria-pt.html" class="lista-paises">PT</a></li>
-						<li><a href="galeria-en.html" class="lista-paises">EN</a></li>
-					</ul>-->
-				</h1>
+				<h1  style="display: flex; flex-direction: row; padding-top: 5px;">CONTACT</h1>
 				<h2 class="text">Contact us! Send your question, suggestion, evaluation, etc.</h2>		
 			</div>
 			<div class="sec-home">
@@ -85,8 +79,19 @@
 								<input type="text" placeholder="NACIONALITY" required=""></input>
 								<label for="text">Enter your e-mail:</label>			
 								<input type="text" placeholder="E-MAIL" required=""></input>
-				
-				
+								<select name="sexo" style="color: white; background-color: #555555; font-size: 17px; height: 40px;">
+								  <option value="escolha">-SEX-</option>
+								  <option value="masculino">Male</option>
+								  <option value="feminino">Female</option>
+								</select>								
+								<select name="assunto" style="color: white; background-color: #555555; font-size: 17px; height: 40px;">
+								  <option value="escolha">-SUBJECT-</option>								  
+								  <option value="dudiva">Doubt</option>
+								  <option value="sugestao">Suggestion</option>
+								  <option value="testemunho">Testimony</option>
+								  <option value="outro">Other</option>
+								</select>
+								<textarea name="message" rows="10" cols="30" placeholder="Enter the message"></textarea>								
 								<input type="submit" value="SEND"></input>
 			</form>
 						</div>		

@@ -32,13 +32,7 @@
 		</nav>
 		<section class="sec-galeria" style="display: flex; flex-direction: column;">			
 			<div class="text">
-				<h1  style="display: flex; flex-direction: row; padding-top: 5px;">CONTATO
-					<!--<ul style="margin: 0; margin-left: 10px;">
-						<li><a href="galeria-it.html" class="lista-paises">IT</a></li>
-						<li><a href="galeria-pt.html" class="lista-paises">PT</a></li>
-						<li><a href="galeria-en.html" class="lista-paises">EN</a></li>
-					</ul>-->
-				</h1>
+				<h1  style="display: flex; flex-direction: row; padding-top: 5px;">CONTATO</h1>
 				<h2 class="text">Fale conosco! Envie sua pergunta, sugestão, avalição, etc.
 				</h2>		
 			</div>
@@ -53,7 +47,7 @@
 
 							</ul>
 						</div>
-						<ul><div class="links-uteis">
+						<div class="links-uteis">
 							<h2 class="links-uteis">Livros sobre a Beata Chiara Luce Badano</h2>
 							<ul>
 								<li class="links-uteis"><a class="links-uteis" href="https://www.google.com.br/
@@ -77,7 +71,7 @@
 					</div>
 					<div class="aba-principal" style="border: 3px solid white; padding: 5px;">
 						<div class="noticia-principal">
-							<form class="form-contato">
+							<form class="form-contato" style="width: 80%; height: 100%;">
 								<label for="text">Digite o seu nome:</label>
 								<input type="text" placeholder="NOME" required=""></input>
 								<label for="text">Digite o seu sobrenome:</label>
@@ -86,10 +80,21 @@
 								<input type="text" placeholder="NACIONALIDADE" required=""></input>
 								<label for="text">Digite o seu e-mail:</label>			
 								<input type="text" placeholder="E-MAIL" required=""></input>
-				
-				
+								<select name="sexo" style="color: white; background-color: #555555; font-size: 17px; height: 40px;">
+								  <option value="escolha">-SEXO-</option>
+								  <option value="masculino">Masculino</option>
+								  <option value="feminino">Feminino</option>
+								</select>								
+								<select name="assunto" style="color: white; background-color: #555555; font-size: 17px; height: 40px;">
+								  <option value="escolha">-ASSUNTO-</option>								  
+								  <option value="dudiva">Dúvida</option>
+								  <option value="sugestao">Sugestão</option>
+								  <option value="testemunho">Testemunho</option>
+								  <option value="outro">Outro</option>
+								</select>
+								<textarea name="message" rows="10" cols="30" placeholder="Digite a mensagem"></textarea>
 								<input type="submit" value="ENVIAR"></input>
-			</form>
+							</form>
 						</div>		
 					</div>
 					<div class="aba-direita">
