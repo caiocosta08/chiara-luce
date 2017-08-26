@@ -1,5 +1,5 @@
 # Chiara Luce
-###Repositório dedicado ao projeto final da disciplina de Linguagem de Marcação.
+### Repositório dedicado ao projeto final da disciplina de Linguagem de Marcação.
 ## Caio Henrique Carneiro de Lima e Costa - 20162610014
 # CHIARA-LUCE
 ## Descrição: O site está dividido em uma página inicial, uma galeria de fotos, uma página dedicada à cidade natal de Chiara Luce, uma página que mostra a Liturgia da Missa no dia dedicado a ela e uma página contendo um formulário de contato. 
