@@ -1,5 +1,5 @@
 //let url = "https://chef-em-casa.herokuapp.com/json/dados.json"
-let url = "http://pokeapi.co/api/v2/pokemon/1"
+let url = "https://pokeapi.co/api/v2/pokemon/1"
 
 $(document).ready(function(){
 
